@@ -1,4 +1,4 @@
-import java.util *;
+import java.util.*;
 
 //Brute force solution for Two Sum problem
 public class TwoSumBruteForce {
@@ -24,7 +24,7 @@ public class TwoSumBruteForce {
         int target = 9;
 
         int[] result = twoSum(nums, target);
-        system.out.println("Indices: [" + result[0] + ", " + result[1] + "]");
+        System.out.println("Indices: [" + result[0] + ", " + result[1] + "]");
     }
 }
 
